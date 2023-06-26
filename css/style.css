@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+ @font-face {
+        font-family: "MonumentExtended";
+        src: url(../fonts/MonumentExtended-Regular.otf);
+            
+    }
+    @font-face {
+        font-family: "Monument-Extended";
+        src: url(../fonts/MonumentExtended-Ultrabold.otf);
+            
+    }
+
+header{
+    position: relative;
+}
+nav{
+    text-align: center;
+    margin-top: 32px;
+}
+.nav_item{
+    letter-spacing: .1rem;
+    font-size: 12.91px;
+    color: #000000;
+    text-decoration: none;
+    margin-right: 29px;
+    font-family: "MonumentExtended";
+}
+#bold {
+    font-weight: 800;
+    font-family: "Monument-Extended";
+}
+
+.Search_Magn{
+    position: absolute;
+    bottom: -2.70px;
+    right: 192px;
+    width: 20px;
+    height: 21.90px;
+    background: url(../icons/search-normal.png);
+    z-index: 1;
+}
+
+input {
+    position: absolute;
+    top: 2px;
+    right: 0;
+    border: none;
+    outline: none;
+  }
+
+  .search::placeholder {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #000000;
+    letter-spacing: .1rem;
+    font-size: 13.91px;
+    font-family: "MonumentExtended";
+  }
+
+  input[type="input"] {
+    position: absolute;
+    top: 2px;
+    right: -110px;
+    color: #000000;
+    font-family: "MonumentExtended";
+ }
