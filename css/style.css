@@ -1,4 +1,4 @@
-*{
+body{
     padding: 0;
     margin: 0;
 }
@@ -16,6 +16,8 @@
 
 header{
     position: relative;
+    height: 50px;
+
 }
 nav{
     text-align: center;
@@ -36,7 +38,7 @@ nav{
 
 .Search_Magn{
     position: absolute;
-    bottom: -2.70px;
+    bottom: 28px;
     right: 192px;
     width: 20px;
     height: 21.90px;
@@ -64,8 +66,107 @@ input {
 
   input[type="input"] {
     position: absolute;
+    width: 90px;
     top: 2px;
-    right: -110px;
+    right: 90px;
     color: #000000;
     font-family: "MonumentExtended";
  }
+
+
+ .Nike_First_Section{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 725px;
+    background: linear-gradient(209deg, #DE343D 0%, #FFB800 100%);
+}
+
+
+.Nike_Sneackers{
+    position: absolute;
+    margin-left: 330px;
+    margin-top: 13.50px;
+    width: 667px;
+    height: 637px;
+    background: url(../icons/Sneakers.png) no-repeat; 
+    background-size: contain
+
+}
+
+.subtitle{
+    position: absolute;
+    margin-left: -50px;
+    white-space: nowrap;
+    top: 165px;
+    color: rgba(255, 255, 255, 0.14);
+    font-size: 278.50px;
+    font-family: "MonumentExtended";
+    letter-spacing: -19px;
+}
+
+.nike_btn {
+    position: absolute;
+    display: inline-flex;
+    bottom: 60px;
+    right: 130px;
+    width: 140px;
+    height: 45px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: 1.531px solid #FFF;
+    cursor: pointer;
+    transition: 0.5s all;
+
+}
+
+.btn_text{
+    position: relative;
+    left: 10px;
+    bottom: 5px;
+    color: #FFF;
+    font-size: 14px;
+    line-height: 52.195px;
+    letter-spacing: 1.631px;
+    font-family: "MonumentExtended";
+    transition: 0.5s all;
+}
+
+
+.frame_icon{
+    width: 438.506px;
+    height: 400.081px;
+    margin-top: 30px;
+    margin-left: 290px;
+    background: url(../icons/Frame_icon.png) no-repeat;
+    background-size: contain
+}
+.neples{
+    position: absolute;
+    padding-bottom: 1000px;
+    top: 250px;
+    left: 20px;
+}
+.neple{
+    width: 17.038px;
+    height: 17.017px;
+    background: rgba(255, 255, 255, 0.69);
+    border-radius: 100%;
+    margin-top: 35px;
+
+}
+.ellip{
+    width: 13.038px;
+    height: 13.017px;
+    border-radius: 100%;
+    border: 2.002px solid rgba(255, 255, 255, 0.37);
+    margin-top: 40px;
+}
+.line{
+    position: absolute;
+    border-bottom: 2px solid rgb(255, 255, 255, 0.69);
+    width: 48px;
+    left: 16px;
+    top: 43.50px;
+}
+
