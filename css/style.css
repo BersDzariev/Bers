@@ -1,4 +1,5 @@
 body{
+    overflow-x: hidden;
     padding: 0;
     margin: 0;
 }
@@ -13,8 +14,8 @@ body{
         src: url(../fonts/MonumentExtended-Ultrabold.otf);
             
     }
-
-header{
+        /*HEADER*/
+header{   
     position: relative;
     height: 50px;
 
@@ -46,7 +47,10 @@ nav{
     z-index: 1;
 }
 
-input {
+
+
+        /*Первая секция*/
+input {      
     position: absolute;
     top: 2px;
     right: 0;
@@ -116,7 +120,6 @@ input {
     background-repeat: no-repeat;
     border: 1.531px solid #FFF;
     cursor: pointer;
-    transition: 0.5s all;
 
 }
 
@@ -170,3 +173,222 @@ input {
     top: 43.50px;
 }
 
+
+        /*ВТОРАЯ СЕКЦИЯ*/
+
+.Top_Sell{
+    margin-top: 50px;
+    margin-left: 58px;
+    color: #DE343D;
+    font-size: 21.725px;
+    font-family: "MonumentExtended";
+    line-height: 40.197px;
+}
+
+.assortment{
+    position: relative;
+    height: 590px;
+}
+
+.assortment_btn {
+  position: absolute;
+  display: inline-flex;
+  top: 10px;
+  left: 890px;
+  width: 125px;
+  height: 37px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  color: #808080;
+  border: 1.256px solid #DEDEDE;
+  cursor: pointer;
+}
+
+#assort_btn{
+    position: absolute;
+    left: 1040px;
+    width: 135px;
+    
+}
+
+#btn_assort{
+    margin-left: -8px;
+    bottom: 8px;
+    color: #808080;
+    font-size: 13px;
+}
+
+.filter{
+    position: relative;
+    top: 5.800px;
+    left: -1px;
+    width: 24.123px;
+    height: 24.123px;
+}
+
+#btn_assort_2{
+    
+    margin-left: -8px;
+    bottom: 8px;
+    color: #808080;
+    font-size: 13px;
+}
+
+.state{
+    position: relative;
+    top: 5.800px;
+    left: -1px;
+    width: 23.123px;
+    height: 23.123px;
+}
+
+#assort_btn_2{
+    left: 1200px;
+    width: 90px;
+    
+}
+
+.line_vertical {
+    position: absolute;
+    left: 40.50px;
+    width: 1.256px;
+    bottom: 0.50px;
+    height: 36px;  
+    background: #DEDEDE;
+
+}
+
+.list{
+    width: 23px;
+    margin-top: 6px;
+    margin-left: 3px
+}
+.grid{
+    width: 23px;
+    margin-top: 5px;
+    margin-left: 22px;
+ }
+                            /*КАРТЫ*/
+ .assortment_of_sneakers{
+    padding-top: 20px;
+    padding-left: 38px;
+ }
+ .sneaker{
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
+    width: 289.97px;
+    height: 257.85px;
+    background: #F9F9F9;
+ }
+
+ .sneaker_i{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 250px;
+ }
+
+ #icon_2{
+    top: 39px;
+ }
+
+ #icon_3{
+    top: 37px;
+ }
+
+ #icon_4{
+    top: 58px;
+ }
+.information{
+    position: relative;
+    right: 38px;
+}
+ .Nike_txt{
+    position: absolute;
+    color: #9C9C9C;
+    bottom: -45px;
+    left: 59px;
+    font-weight: 400;
+    line-height: 140%;
+    font-size: 17.006px;
+    font-family: "MonumentExtended";
+ }
+
+ .Name{
+    position: absolute;
+    bottom: -68px;
+    left: 58px;
+    color: #040404;
+    font-size: 17.15px;
+    font-family: "MonumentExtended";
+    font-style: normal;
+    font-weight: 400;
+    
+ }
+
+ .price{
+    position: absolute;
+    bottom: -87px;
+    left: 58px;
+    color: #040404;
+    font-size: 13.434px;
+    font-family: "MonumentExtended";
+    font-weight: 400;
+ }
+
+ .size{
+    position: absolute;
+    left: 58px;
+    bottom: -109px;
+    color: #DE343D;
+    font-size: 12.862px;
+    font-family: "MonumentExtended";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 1.572px;    
+ }
+
+ .information_2{
+    position: relative;
+    left: 275px;
+ }
+
+ .information_3{
+    position: relative;
+    left: 590px;
+ }
+
+ .information_4{
+    position: relative;
+    left: 903px;
+ }
+
+                    /*ПОСЛЕДНЯЯ КНОПКА*/
+.last_assortment_btn {
+    position: absolute;
+    display: inline-flex;
+    top: 463px;
+    left: 590px;
+    width: 115px;
+    height: 39px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    color: #808080;
+    border: 1.256px solid #DEDEDE;
+    cursor: pointer;
+    
+  }
+
+.last_btn_text{
+    position: relative;
+    left: 8px;
+    bottom: 8px;
+    color: #808080;
+    font-size: 13px;
+    line-height: 52.195px;
+    letter-spacing: 1.631px;
+    font-family: "MonumentExtended";
+
+}
