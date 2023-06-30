@@ -4,6 +4,7 @@ body{
     margin: 0;
 }
 
+
  @font-face {
         font-family: "MonumentExtended";
         src: url(../fonts/MonumentExtended-Regular.otf);
@@ -369,8 +370,8 @@ input {
 .last_assortment_btn {
     position: absolute;
     display: inline-flex;
-    top: 463px;
-    left: 590px;
+    top: 468px;
+    left: 610px;
     width: 115px;
     height: 39px;
     background-color: transparent;
@@ -391,4 +392,73 @@ input {
     letter-spacing: 1.631px;
     font-family: "MonumentExtended";
 
+}
+.Advert{
+    position: relative;
+}
+.text_bg{
+    margin-top: 85px;
+    margin-left: 180px;
+    width: 1020.2px;
+    height: 300px;
+    background: url(../img/bg/text_bg.png) no-repeat;
+    background-size: contain;
+}
+
+.rotate_sneaker{
+    position: absolute;
+    top: -99px;
+    right: 65px;
+    width: 246.948px;
+    height: 207.63px;
+   
+}
+
+.rotate_sneaker_2{
+    position: absolute;
+    top: -96px;
+    left: 324px;
+    width: 275.948px;
+    height: 263.63px;
+   
+}
+
+.rotate_sneaker_3{
+    position: absolute;
+    top: 100px;
+    right: 118px;
+    width: 228.386px;
+    height: 135.743px;
+   
+}
+.brands_icon{
+    position: absolute;
+    left: 340px;
+}
+
+.brand{
+    margin-right: 55px;
+}
+#nike_brand{
+    margin-left: 28px;
+    margin-bottom: 12px;
+    width: 120.682px;
+    height: 42.734px; 
+    
+}
+
+#adidas_brand{
+    width: 120.682px;
+    height: 67.734px;   
+}
+
+
+#newbalance_brand{
+    width: 120.682px;
+    height: 67.734px;   
+}
+#Vans_Brand{
+    margin-right: 35px;
+    width: 120.682px;
+    height: 61.734px;   
 }
