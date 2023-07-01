@@ -103,7 +103,7 @@ input {
     position: absolute;
     margin-left: -50px;
     white-space: nowrap;
-    top: 165px;
+    top: 130px;
     color: rgba(255, 255, 255, 0.14);
     font-size: 278.50px;
     font-family: "MonumentExtended";
@@ -598,7 +598,7 @@ input {
     position: relative;
     width: 1200px;
     height: 870px;
-    z-index: 10;
+    z-index: 3;
 }
 
 
@@ -634,7 +634,56 @@ input {
     bottom: 2.50px;
 }
 
+.footer{
+    position: relative;
+    height: 300px;
+    top: 680px;
+    background: #F9F9F9;
+    z-index: -1;
+}
 
+
+.col{
+    position: absolute;
+    color: #DE343D;
+    font-family: "MonumentExtended";
+    font-size: 12.50px;
+    bottom: 30px;
+    right: 250px;
+    text-decoration: none;
+    z-index: 20;
+}
+
+
+.col2{
+    position: absolute;
+    font-family: "MonumentExtended";
+    color: #DE343D;
+    font-size: 12.50px;
+    bottom: 30px;
+    right: 165px;
+    text-decoration: none;
+    z-index: 20;
+}
+
+.col3{
+    position: absolute;
+    color: #DE343D;
+    font-family: "MonumentExtended";
+    font-size: 12.50px;
+    bottom: 30px;
+    right: -50px;
+    white-space: nowrap;
+    text-decoration: none;
+    z-index: 20;
+}
+
+
+.bold_txt{
+    position: relative;
+    bottom: 30px;
+    font-family: "Monument-Extended";
+}
 
 
 
