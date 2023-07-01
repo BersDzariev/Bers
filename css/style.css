@@ -366,6 +366,25 @@ input {
     left: 903px;
  }
 
+ .Vector_1{
+    position: relative;
+    top: 168px;
+    left: 37px;
+    width: 44px;
+    background-size: contain;
+    background: no-repeat;
+ }
+
+
+ .Vector_2{
+    position: relative;
+    top: 168px;
+    right: 76px;
+    width: 44px;
+    background-size: contain;
+    background: no-repeat;
+ }
+
                     /*ПОСЛЕДНЯЯ КНОПКА*/
 .last_assortment_btn {
     position: absolute;
@@ -435,7 +454,11 @@ input {
     position: absolute;
     left: 340px;
 }
-
+.brands{
+    position: relative;
+    left: 340px;
+    bottom: 10px;
+}
 .brand{
     margin-right: 55px;
 }
@@ -462,3 +485,156 @@ input {
     width: 120.682px;
     height: 61.734px;   
 }
+.Nike_Blur_Section{
+    position: relative;
+    height: 10px;
+}
+.Nike_line{
+    position: absolute;
+    width: 1355px;
+    height: 49.2px;
+    top: 53px;
+   
+}
+
+.Blur_Bg{
+    position: absolute;
+    width: 1355px;
+    height: 595px;
+    top: 100px;
+    backdrop-filter: blur(10px);
+   
+}
+.subtitle2{
+    position: absolute;
+    left: -60px;
+    white-space: nowrap;
+    top: 230px;
+    color: rgba(255, 255, 255, 0.14);
+    font-size: 278.50px;
+    font-family: "MonumentExtended";
+    letter-spacing: -19px;
+    z-index: 1;
+}
+
+.Nike_logo{
+    position: absolute;
+    left: 500px;
+    top: 372.50px;
+    width: 367px;
+    height: 317px;
+    background: url(../icons/white_nike_logo.png) no-repeat; 
+    z-index: 2;
+    background-size: contain
+    
+
+}
+
+
+
+.last_nike_section{
+    position: relative;
+    top: 680px;
+    height: 1250px;
+
+}
+.Top_Sell_2{
+    margin-top: 50px;
+    margin-left: 208px;
+    color: #DE343D;
+    font-size: 21.725px;
+    font-family: "MonumentExtended";
+    line-height: 40.197px;
+}
+.assortment_btn_2{
+    position: absolute;
+    display: inline-flex;
+    top: 10px;
+    left: 770px;
+    width: 125px;
+    height: 37px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    color: #808080;
+    border: 1.256px solid #DEDEDE;
+    cursor: pointer;
+}
+
+
+#assort_btn_3{
+    position: absolute;
+    left: 922px;
+    width: 135px;
+    
+}
+
+#assort_btn_4{
+    left: 1084px;
+    width: 90px;
+    
+}
+
+
+.sneakers_assortment{
+    position: absolute;
+    top: 112px;
+    left: 200px;
+}
+
+.sneakers_assortment_2{
+    position: absolute;
+    top: 542px;
+    left: 200px;
+}
+
+
+.all_sneakers{
+    background: url(../img/gradient.png);
+    width: 1539px;
+    height: 849px;
+}
+
+.gradient{
+    position: relative;
+    width: 1200px;
+    height: 870px;
+    z-index: 10;
+}
+
+
+.last_assortment_btn_2 {
+    position: absolute;
+    display: inline-flex;
+    top: 925px;
+    left: 630px;
+    width: 115px;
+    height: 41px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    color: #040404;
+    border: 1.256px solid #040404;
+    cursor: pointer;
+    
+  }
+
+.last_btn_text_2{
+    position: relative;
+    left: 8px;
+    bottom: 7px;
+    color: #000000;
+    font-size: 13px;
+    line-height: 52.195px;
+    letter-spacing: 1.631px;
+    font-family: "MonumentExtended";
+
+}
+
+
+#info_3{
+    bottom: 2.50px;
+}
+
+
+
+
+
