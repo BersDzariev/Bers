@@ -1,5 +1,5 @@
 body{
- 
+    overflow-x: hidden;
     padding: 0;
     margin: 0;
 }
@@ -237,31 +237,33 @@ input {
  }
                             /*КАРТЫ*/
  .assortment_of_sneakers{
-    padding-top: 70px;
+    padding-top: 30px;
     padding-left: 38px;
  }
  
  .sneaker_carousel{
     position: relative;
     display: inline-block;
-    margin-left: 500px;
-    width: 270.97px;
-    height: 347.85px;
+    background-size: contain;
+    margin-left: 50px;
+    width: 1170.97px;
+    height: 357.85px;
+    bottom: 5px;
  }
 
-
+ 
  .Vector_1{
     position: relative;
-    bottom: 108px;
-    left: 37px;
+    top: 150px;
+    left: 15px;
     width: 44px;
     background-size: contain;
     background: no-repeat;
  }
  .Vector_2{
     position: relative;
-    bottom: 108px;
-    right: 76px;
+    top: 150px;
+    right: 10px;
     width: 44px;
     background-size: contain;
     background: no-repeat;
@@ -270,7 +272,7 @@ input {
 .last_assortment_btn {
     position: absolute;
     display: inline-flex;
-    top: 398px;
+    top: 468px;
     left: 570px;
     width: 115px;
     height: 39px;
