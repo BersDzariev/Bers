@@ -36,8 +36,8 @@ nav{
 }
 .Search_Magn{
     position: absolute;
-    bottom: 28px;
-    right: 192px;
+    bottom: 26px;
+    right: 185px;
     width: 20px;
     height: 21.90px;
     background: url(../icons/search-normal.png);
@@ -53,7 +53,7 @@ input {
   }
   .search::placeholder {
     position: absolute;
-    bottom: 0;
+    top: 3px;
     left: 0;
     color: #000000;
     letter-spacing: .1rem;
@@ -117,6 +117,10 @@ input {
     letter-spacing: 1.631px;
     font-family: "MonumentExtended";
     transition: 0.5s all;
+}
+
+.l_n_s{
+    text-decoration: none;
 }
 .frame_icon{
     width: 438.506px;
